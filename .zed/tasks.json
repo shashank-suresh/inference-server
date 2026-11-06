@@ -1,0 +1,15 @@
+// Project tasks configuration. See https://zed.dev/docs/tasks for documentation.
+//
+// Example:
+[
+  {
+    "label": "CMake: Configure",
+    "command": "cmake -B build -DCMAKE_BUILD_TYPE=Release",
+    "hide": "on_success",
+  },
+  {
+    "label": "CMake: Build Project",
+    "command": "cmake --build build -j",
+    "hide": "on_success",
+  },
+]
